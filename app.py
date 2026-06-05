@@ -22,5 +22,9 @@ def dashboard():
 def faculty():
     return render_template('faculty_dashboard.html')
 
+@app.route('/daily-report')
+def daily_report():
+    return render_template('daily_report.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
