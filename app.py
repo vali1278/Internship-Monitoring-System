@@ -18,5 +18,9 @@ def register():
 def dashboard():
     return render_template('dashboard.html')
 
+@app.route('/faculty')
+def faculty():
+    return render_template('faculty_dashboard.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
