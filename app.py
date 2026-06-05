@@ -39,5 +39,13 @@ def admin():
 def student_details():
     return render_template('student_details.html')
 
+@app.route('/internship-details')
+def internship_details():
+    return render_template('internship_details.html')
+
+@app.route('/attendance')
+def attendance():
+    return render_template('attendance.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
