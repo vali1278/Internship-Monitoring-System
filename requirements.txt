@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Internship Monitoring System</title>
+</head>
+<body>
+    <h1>Internship Monitoring System</h1>
+    <p>Welcome to the Internship Monitoring System.</p>
+
+    <h2>Features</h2>
+    <ul>
+        <li>Student Login</li>
+        <li>Daily Report Submission</li>
+        <li>Photo Upload</li>
+        <li>Faculty Monitoring</li>
+    </ul>
+</body>
+</html>
