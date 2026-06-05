@@ -30,5 +30,9 @@ def daily_report():
 def photo_upload():
     return render_template('photo_upload.html')
 
+@app.route('/admin')
+def admin():
+    return render_template('admin_dashboard.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
