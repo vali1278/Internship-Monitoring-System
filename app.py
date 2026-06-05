@@ -35,5 +35,9 @@ def photo_upload():
 def admin():
     return render_template('admin_dashboard.html')
 
+@app.route('/student-details')
+def student_details():
+    return render_template('student_details.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
