@@ -26,5 +26,9 @@ def faculty():
 def daily_report():
     return render_template('daily_report.html')
 
+@app.route('/photo-upload')
+def photo_upload():
+    return render_template('photo_upload.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
